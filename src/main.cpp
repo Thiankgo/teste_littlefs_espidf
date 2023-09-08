@@ -7,14 +7,6 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-void println(const char *message) {
-  printf("%s\n", message);
-}
-
-void print(const char *message) {
-  printf("%s", message);
-}
-
 extern "C" {
 void app_main(void);
 }
@@ -85,40 +77,14 @@ void read_string_from_file() {
 }
 
 void app_main() {
-  gpio_set_direction(GPIO_NUM_45, GPIO_MODE_OUTPUT);
-  uart_config_t uart_config = {
-      .baud_rate = 115200,
-      .data_bits = UART_DATA_8_BITS,
-      .parity = UART_PARITY_DISABLE,
-      .stop_bits = UART_STOP_BITS_1,
-      .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
-  };
-
-  uart_param_config(UART_NUM_0, &uart_config);
-  uart_set_pin(UART_NUM_0, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
-
-  uart_driver_install(UART_NUM_0, 256, 0, 0, NULL, 0);
-
-  while (!uart_is_driver_installed(UART_NUM_0)) {
-    vTaskDelay(pdMS_TO_TICKS(50));
+  while (init_littlefs() != ESP_OK) {
+    vTaskDelay(pdMS_TO_TICKS(100));
   }
 
-  println("init");
-
-  gpio_set_level(GPIO_NUM_45, 1);
-  vTaskDelay(pdMS_TO_TICKS(20));
-  gpio_set_level(GPIO_NUM_45, 0);
-
-  init_littlefs();
-
-  write_string_to_file();
-  read_string_from_file();
-
-  gpio_set_level(GPIO_NUM_45, 1);
-  vTaskDelay(pdMS_TO_TICKS(20));
-  gpio_set_level(GPIO_NUM_45, 0);
 
   while (1) {
+    write_string_to_file();
+    read_string_from_file();
 
     vTaskDelay(pdMS_TO_TICKS(1000));
   }

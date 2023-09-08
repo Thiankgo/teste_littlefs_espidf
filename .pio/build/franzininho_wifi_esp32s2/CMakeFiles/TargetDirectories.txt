@@ -10,6 +10,7 @@ C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/fra
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/CMakeFiles/_project_elf_src.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/CMakeFiles/teste_littlefs_espidf.elf.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/CMakeFiles/size.dir
+C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/CMakeFiles/littlefs_littlefs_bin.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/CMakeFiles/size-files.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/CMakeFiles/size-components.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/CMakeFiles/dfu.dir
@@ -694,13 +695,6 @@ C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/fra
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/src/CMakeFiles/edit_cache.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/src/CMakeFiles/rebuild_cache.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/src/CMakeFiles/list_install_components.dir
-C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/arduino-esp32/CMakeFiles/__idf_arduino-esp32.dir
-C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/arduino-esp32/CMakeFiles/install/local.dir
-C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/arduino-esp32/CMakeFiles/install.dir
-C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/arduino-esp32/CMakeFiles/edit_cache.dir
-C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/arduino-esp32/CMakeFiles/rebuild_cache.dir
-C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/arduino-esp32/CMakeFiles/list_install_components.dir
-C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/arduino-esp32/CMakeFiles/install/strip.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/esp_littlefs/CMakeFiles/__idf_esp_littlefs.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/esp_littlefs/CMakeFiles/install/local.dir
 C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/esp_littlefs/CMakeFiles/install.dir

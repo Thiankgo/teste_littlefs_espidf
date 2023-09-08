@@ -73,5 +73,4 @@ $<TARGET_FILE:__idf_touch_element>
 $<TARGET_FILE:__idf_ulp>
 $<TARGET_FILE:__idf_wifi_provisioning>
 $<TARGET_FILE:__idf_src>
-$<TARGET_FILE:__idf_arduino-esp32>
 $<TARGET_FILE:__idf_esp_littlefs>

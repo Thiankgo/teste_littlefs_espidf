@@ -3,4 +3,3 @@ source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/bootl
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_rom/Kconfig.projbuild"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/esptool_py/Kconfig.projbuild"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/partition_table/Kconfig.projbuild"
-source "C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/components/arduino-esp32/Kconfig.projbuild"

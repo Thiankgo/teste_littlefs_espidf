@@ -119,7 +119,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/ulp/cmake_install.cmake")
   include("C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/wifi_provisioning/cmake_install.cmake")
   include("C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/src/cmake_install.cmake")
-  include("C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/arduino-esp32/cmake_install.cmake")
   include("C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/esp-idf/esp_littlefs/cmake_install.cmake")
 
 endif()
