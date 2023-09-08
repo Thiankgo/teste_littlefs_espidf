@@ -32,7 +32,6 @@ source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/freer
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/hal/Kconfig"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/heap/Kconfig"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/ieee802154/Kconfig"
-source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/joltwallet__littlefs/Kconfig"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/jsmn/Kconfig"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/libsodium/Kconfig"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/log/Kconfig"
@@ -55,3 +54,4 @@ source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/vfs/K
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/wear_levelling/Kconfig"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/wifi_provisioning/Kconfig"
 source "C:/.platformio/packages/framework-espidf@3.40405.230623/components/wpa_supplicant/Kconfig"
+source "C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/components/esp_littlefs/Kconfig"
