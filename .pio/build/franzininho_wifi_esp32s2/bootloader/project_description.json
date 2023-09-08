@@ -1,0 +1,23 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/.platformio/packages/framework-espidf@3.40405.230623/components/bootloader/subproject",
+    "build_dir":          "C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/.pio/build/franzininho_wifi_esp32s2/bootloader",
+    "config_file":        "C:/Users/user/Documents/PlatformIO/Projects/teste_littlefs_espidf/sdkconfig.franzininho_wifi_esp32s2",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "4.4.5",
+    "target":             "esp32s2",
+    "rev":                "",
+    "min_rev":            "0",
+    "max_rev":            "199",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s2-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/.platformio/packages/framework-espidf@3.40405.230623/components/efuse/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp32s2/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_common/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_hw_support/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_system/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/freertos/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/hal/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/log/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/newlib/Kconfig;C:/.platformio/packages/framework-espidf@3.40405.230623/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/.platformio/packages/framework-espidf@3.40405.230623/components/bootloader/Kconfig.projbuild;C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_rom/Kconfig.projbuild;C:/.platformio/packages/framework-espidf@3.40405.230623/components/esptool_py/Kconfig.projbuild;C:/.platformio/packages/framework-espidf@3.40405.230623/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s2", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/.platformio/packages/framework-espidf@3.40405.230623/components/bootloader", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/bootloader_support", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/efuse", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp32s2", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_common", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_hw_support", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_rom", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/esp_system", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/esptool_py", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/freertos", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/hal", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/log", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/bootloader/subproject/main", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/bootloader/subproject/components/micro-ecc", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/newlib", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/partition_table", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/soc", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/spi_flash", "C:/.platformio/packages/framework-espidf@3.40405.230623/components/xtensa", "" ]
+}
